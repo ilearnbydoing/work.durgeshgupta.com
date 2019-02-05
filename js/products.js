@@ -9,13 +9,26 @@ var $products,
 
 
 $products = {
+		byro : {
+
+		name     : 'Byrocreations.com',
+
+		tag      : 'PHP',
+
+		img      : 'images/byrocreations.jpg',
+
+		url      : 'http://byrocreations.com',
+
+		purchase : '#',
+
+	},
 		blogwebanaya : {
 
 		name     : 'Blog.Webanaya.com',
 
 		tag      : 'PHP',
 
-		img      : '../images/blog-webanaya.jpg',
+		img      : 'images/blog-webanaya.jpg',
 
 		url      : 'https://blog.webanaya.com',
 
@@ -28,9 +41,22 @@ $products = {
 
 		tag      : 'PHP',
 
-		img      : '../images/email-webanaya.jpg',
+		img      : 'images/email-webanaya.jpg',
 
 		url      : 'https://email.webanaya.com',
+
+		purchase : '#',
+
+	},
+		smtpwebanaya : {
+
+		name     : 'Smtp.Webanaya.com',
+
+		tag      : 'PHP',
+
+		img      : 'images/smtp-webanaya.jpg',
+
+		url      : 'https://smtp.webanaya.com',
 
 		purchase : '#',
 
